@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+[class*="__container"] {
+  max-width: 1910px;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+
+[class*="__box"] {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1 auto;
+}
+.border-bottom {
+  position: absolute;
+  margin-top: 115px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  opacity: 0.1;
+  width: 100vw;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+.header__container {
+  display: flex;
+  min-height: 80px;
+  align-items: flex-start;
+}
+
+.header-strong-text {
+  color: rgb(223, 142, 142);
+  font-size: 30px;
+  margin: 40px;
+}
+
+.header-text {
+  position: absolute;
+  color: rgb(194, 81, 81);
+  font-size: 20px;
+  margin: 150px 40px;
+  background-color: rgb(230, 224, 224);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+/* .do {
+  
+} */
+
+.do__container {
+  margin-top: 300px;
+}
+
+.hod {
+  margin: 0 0 250px; 
+}
+
+.do_content-and-timer {
+  display: flex;
+}
+
+.timers {
+  justify-content: flex-end;
+  display: flex;
+}
+.timer {
+  flex-direction: column;
+  margin: 0 105px;
+  align-items: center;
+}
+
+.box-hod-and-params {
+  flex: 1 0 auto;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  margin: 105px 0px;
+  text-align: center;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  margin: 0 125px;
+}
+.button {
+  margin: 5px 0;
+  font-size: 10px;
+  width: 120px;
+  height: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: bisque;
+  box-shadow: 0px 0px 15px rgb(148, 132, 132);
+}
+.time {
+  font-size: 20px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
